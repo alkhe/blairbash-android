@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/xeno/AndroidStudioProjects/Blairbash/tabbed/src/main/res/values-v7/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+
+</resources>

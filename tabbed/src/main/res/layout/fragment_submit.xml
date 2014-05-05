@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 xmlns:tools="http://schemas.android.com/tools"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent"
+			 android:orientation="vertical"
+			 tools:context="io.systemic.blairbash.tabbed.BrowseFragment">
+
+	<TextView
+		android:text="@string/submit_quote_label"
+		style="@style/AppTheme.TextView" />
+	
+	<EditText
+		android:id="@+id/submit_quote"
+		android:layout_weight="7"
+		style="@style/AppTheme.TextView" />
+
+	<TextView
+		android:text="@string/submit_info_label"
+		style="@style/AppTheme.TextView" />
+
+	<EditText
+		android:id="@+id/submit_info"
+		android:layout_weight="7"
+		style="@style/AppTheme.TextView" />
+
+	<TextView
+		android:text="@string/submit_tags_label"
+		style="@style/AppTheme.TextView" />
+
+	<EditText
+		android:id="@+id/submit_tags"
+		android:layout_weight="7"
+		style="@style/AppTheme.TextView" />
+
+	<Button
+		android:layout_width="fill_parent"
+		android:text="@string/submit_button"
+		style="@style/AppTheme.Button" />
+
+</LinearLayout>

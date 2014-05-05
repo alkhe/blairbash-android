@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blairbash</string>
+
+    <string name="tab_browse">Browse</string>
+    <string name="tab_submit">Submit</string>
+
+	<string name="submit_quote_label">Quote</string>
+	<string name="submit_info_label">Additional Information</string>
+	<string name="submit_tags_label">Tags</string>
+	<string name="submit_button">Submit</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
