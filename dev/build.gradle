@@ -7,8 +7,8 @@ android {
 	defaultConfig {
 		minSdkVersion 7
 		targetSdkVersion 19
-		versionCode 1
-		versionName "1.0"
+		versionCode 3
+		versionName "1.5.1"
 	}
 	signingConfigs {
 		release {
@@ -25,10 +25,35 @@ android {
 			signingConfig signingConfigs.release
 		}
 	}
+	lintOptions {
+		abortOnError false
+	}
 }
 
 dependencies {
 	compile fileTree(dir: 'libs', include: ['*.jar'])
-	compile 'com.android.support:appcompat-v7:19.1.0'
-	compile 'com.android.support:support-v4:19.1.0'
+	compile 'com.android.support:appcompat-v7:19.+'
+	compile 'com.android.support:support-v4:19.+'
+	compile files('libs/jsoup-1.7.3.jar')
+	compile files('libs/htmlunit-2.14.jar')
+	compile files('libs/commons-codec-1.9.jar')
+	compile files('libs/commons-collections-3.2.1.jar')
+	compile files('libs/commons-io-2.4.jar')
+	compile files('libs/commons-lang3-3.2.1.jar')
+	compile files('libs/commons-logging-1.1.3.jar')
+	compile files('libs/cssparser-0.9.13.jar')
+	compile files('libs/htmlunit-core-js-2.14.jar')
+	compile files('libs/httpclient-4.3.2.jar')
+	compile files('libs/httpcore-4.3.1.jar')
+	compile files('libs/httpmime-4.3.2.jar')
+	compile files('libs/jetty-http-8.1.14.v20131031.jar')
+	compile files('libs/jetty-io-8.1.14.v20131031.jar')
+	compile files('libs/jetty-util-8.1.14.v20131031.jar')
+	compile files('libs/jetty-websocket-8.1.14.v20131031.jar')
+	compile files('libs/nekohtml-1.9.20.jar')
+	compile files('libs/sac-1.3.jar')
+	compile files('libs/serializer-2.7.1.jar')
+	compile files('libs/xalan-2.7.1.jar')
+	compile files('libs/xercesImpl-2.11.0.jar')
+	compile files('libs/xml-apis-1.4.01.jar')
 }

@@ -19,16 +19,16 @@
                     msgid="3588849162933574182" >"Več možnosti"
                 </string>
                 <string
-                    name="abc_shareactionprovider_share_with"
-                    msgid="3421042268587513524" >"Deljenje z"
+                    name="abc_action_mode_done"
+                    msgid="4076576682505996667" >"Končano"
                 </string>
                 <string
                     name="abc_activity_chooser_view_see_all"
                     msgid="7468859129482906941" >"Pokaži vse"
                 </string>
                 <string
-                    name="abc_action_mode_done"
-                    msgid="4076576682505996667" >"Končano"
+                    name="abc_shareactionprovider_share_with"
+                    msgid="3421042268587513524" >"Deljenje z"
                 </string>
                 <string
                     name="abc_action_bar_home_description"
@@ -47,12 +47,12 @@
                     msgid="8264924765203268293" >"Iskanje"
                 </string>
                 <string
-                    name="abc_searchview_description_submit"
-                    msgid="8928215447528550784" >"Pošiljanje poizvedbe"
-                </string>
-                <string
                     name="abc_searchview_description_query"
                     msgid="2550479030709304392" >"Iskalna poizvedba"
+                </string>
+                <string
+                    name="abc_searchview_description_submit"
+                    msgid="8928215447528550784" >"Pošiljanje poizvedbe"
                 </string>
                 <string
                     name="abc_searchview_description_voice"
@@ -278,16 +278,16 @@
                     msgid="2031811694353399454" >"Επιλέξτε κάποια εφαρμογή"
                 </string>
                 <string
-                    name="abc_searchview_description_clear"
-                    msgid="3691816814315814921" >"Διαγραφή ερωτήματος"
-                </string>
-                <string
                     name="abc_searchview_description_voice"
                     msgid="893419373245838918" >"Φωνητική αναζήτηση"
                 </string>
                 <string
                     name="abc_action_menu_overflow_description"
                     msgid="3588849162933574182" >"Περισσότερες επιλογές"
+                </string>
+                <string
+                    name="abc_searchview_description_clear"
+                    msgid="3691816814315814921" >"Διαγραφή ερωτήματος"
                 </string>
             </file>
             <file
@@ -5608,16 +5608,16 @@ middle
                     msgid="4076576682505996667" >"Atlikta"
                 </string>
                 <string
-                    name="abc_action_bar_home_description"
-                    msgid="4600421777120114993" >"Eiti į pagrindinį puslapį"
-                </string>
-                <string
                     name="abc_searchview_description_search"
                     msgid="8264924765203268293" >"Paieška"
                 </string>
                 <string
                     name="abc_shareactionprovider_share_with_application"
                     msgid="7165123711973476752" >"Bendrinti naudojant „%s“"
+                </string>
+                <string
+                    name="abc_action_bar_home_description"
+                    msgid="4600421777120114993" >"Eiti į pagrindinį puslapį"
                 </string>
             </file>
             <file
@@ -8263,10 +8263,274 @@ true
                 qualifiers=""
                 type="menu" />
             <file
+                name="buttonsolid"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/buttonsolid.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="edittextsolid_unpressed"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/edittextsolid_unpressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="quotebox"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/quotebox.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="edittext_pressed"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/edittext_pressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_pressed"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/button_pressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="buttonsolid_pressed"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/buttonsolid_pressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_unpressed"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/button_unpressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="edittextsolid"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/edittextsolid.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="edittext_unpressed"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/edittext_unpressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/button.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="layout"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/layout.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="edittext"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/edittext.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="edittextsolid_pressed"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/edittextsolid_pressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="buttonsolid_unpressed"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable/buttonsolid_unpressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
                 path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/values-w820dp/dimens.xml"
                 qualifiers="w820dp" >
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
+            </file>
+            <file
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/values-v7/styles.xml"
+                qualifiers="v7" >
+
+                <style
+                    name="AppTheme.Button.Navigate.Left"
+                    parent="AppTheme.Button.Navigate" >
+                    <item name="android:src">
+			@drawable/ic_action_previous_item
+                    </item>
+                    <item name="android:onClick">
+			previousQuote
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Layout.QuoteBox"
+                    parent="AppTheme.Layout" >
+                    <item name="android:layout_height">
+			wrap_content
+                    </item>
+                    <item name="android:background">
+			@drawable/quotebox
+                    </item>
+                    <item name="android:layout_margin">
+			6dp
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.TextView.Quote"
+                    parent="AppTheme.TextView" >
+                    <item name="android:layout_width">
+			0dp
+                    </item>
+                    <item name="android:layout_weight">
+			1
+                    </item>
+                    <item name="android:textColor">
+			@color/pink
+                    </item>
+                    <item name="android:textSize">
+			18sp
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Navigate.Right"
+                    parent="AppTheme.Button.Navigate" >
+                    <item name="android:src">
+			@drawable/ic_action_next_item
+                    </item>
+                    <item name="android:onClick">
+			nextQuote
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Rate.Like"
+                    parent="AppTheme.Button.Rate" >
+                    <item name="android:src">
+			@drawable/ic_action_good
+                    </item>
+                    <item name="android:onClick">
+			upVote
+                    </item>
+                </style>
+
+                <style name="AppTheme.Layout" >
+                    <item name="android:background">
+			@drawable/layout
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.TextView"
+                    parent="AppTheme.Component" >
+                    <item name="android:layout_height">
+			wrap_content
+                    </item>
+                    <item name="android:textColor">
+			@color/white_f
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Rate.Dislike"
+                    parent="AppTheme.Button.Rate" >
+                    <item name="android:src">
+			@drawable/ic_action_bad
+                    </item>
+                    <item name="android:onClick">
+			downVote
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.EditText.Solid"
+                    parent="AppTheme.EditText" >
+                    <item name="android:layout_margin">
+			0dp
+                    </item>
+                    <item name="android:background">
+			@drawable/edittextsolid
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Rate"
+                    parent="AppTheme.Button" >
+                    <item name="android:layout_width">
+			wrap_content
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Navigate"
+                    parent="AppTheme.Button.Solid" >
+                    <item name="android:layout_width">
+			0dp
+                    </item>
+                    <item name="android:layout_weight">
+			1
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button"
+                    parent="AppTheme.Component" >
+                    <item name="android:layout_height">
+			wrap_content
+                    </item>
+                    <item name="android:background">
+			@drawable/button
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.EditText"
+                    parent="AppTheme.Component" >
+                    <item name="android:layout_height">
+			wrap_content
+                    </item>
+                    <item name="android:background">
+			@drawable/edittext
+                    </item>
+                    <item name="android:textColor">
+			@color/gray_dark
+                    </item>
+                    <item name="android:gravity">
+			top
+                    </item>
+                    <item name="android:inputType">
+			text
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="Theme.AppCompat.Light.DarkActionBar" >
+                </style>
+
+                <style name="AppTheme.Component" >
+                    <item name="android:textSize">
+			20sp
+                    </item>
+                    <item name="android:layout_width">
+			fill_parent
+                    </item>
+                    <item name="android:layout_margin">
+			6dp
+                    </item>
+                    <item name="android:textColor">
+			@color/white_f
+                    </item>
+                    <item name="android:padding">
+			4dp
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Solid"
+                    parent="AppTheme.Button" >
+                    <item name="android:layout_height">
+			wrap_content
+                    </item>
+                    <item name="android:layout_margin">
+			0dp
+                    </item>
+                    <item name="android:background">
+			@drawable/buttonsolid
+                    </item>
+                </style>
             </file>
             <file
                 name="activity_main"
@@ -8279,33 +8543,102 @@ true
                 qualifiers=""
                 type="layout" />
             <file
+                name="fragment_submit"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/layout/fragment_submit.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_browse"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/layout/fragment_browse.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="white_f" >#f0ffffff
+                </color>
+                <color name="white_d" >#d0ffffff
+                </color>
+                <color name="white_e" >#e0ffffff
+                </color>
+                <color name="pink_medium" >#ff8080
+                </color>
+                <color name="mellow" >#d0b080
+                </color>
+                <color name="white_b" >#b0ffffff
+                </color>
+                <color name="white_c" >#c0ffffff
+                </color>
+                <color name="mellow_medium" >#b09060
+                </color>
+                <color name="white_2" >#20ffffff
+                </color>
+                <color name="white_3" >#30ffffff
+                </color>
+                <color name="gray_medium" >#808080
+                </color>
+                <color name="white_4" >#40ffffff
+                </color>
+                <color name="white_5" >#50ffffff
+                </color>
+                <color name="white_6" >#60ffffff
+                </color>
+                <color name="white_7" >#70ffffff
+                </color>
+                <color name="white_8" >#80ffffff
+                </color>
+                <color name="white_9" >#90ffffff
+                </color>
+                <color name="mellow_dark" >#907040
+                </color>
+                <color name="white_1" >#10ffffff
+                </color>
+                <color name="gray_dark" >#404040
+                </color>
+                <color name="blairbash_medium" >#df3b29
+                </color>
+                <color name="pink" >#ffa0a0
+                </color>
+                <color name="blairbash" >#ff5b49
+                </color>
+                <color name="white" >#ffffff
+                </color>
+                <color name="white_a" >#a0ffffff
+                </color>
+                <color name="blairbash_dark" >#bf1b09
+                </color>
+            </file>
+            <file
                 path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/values/strings.xml"
                 qualifiers="" >
+                <string name="submit_notes_label" >Additional Information
+                </string>
                 <string name="action_settings" >Settings
                 </string>
-                <string name="title_submit" >Submit
+                <string name="submit_tags_label" >Tags
                 </string>
-                <string name="description_submit" >Submit a Quote.
+                <string name="todo" >This feature has not yet been implemented.
                 </string>
-                <string name="title_activity_browse" >BrowseActivity
+                <string name="tab_browse" >Browse
                 </string>
-                <string name="description_browse" >Browse Blairbash.
+                <string name="goto_quote" >Go
+                </string>
+                <string name="like_button" >Like
                 </string>
                 <string name="app_name" >Blairbash
                 </string>
-                <string name="hello_world" >Hello world!
+                <string name="submit_button" >Submit
                 </string>
-                <string name="title_browse" >Browse
+                <string name="previous_quote" >Previous Quote
                 </string>
-            </file>
-            <file
-                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/values/styles.xml"
-                qualifiers="" >
-
-                <style
-                    name="AppTheme"
-                    parent="Theme.AppCompat.Light.DarkActionBar" >
-                </style>
+                <string name="next_quote" >Next Quote
+                </string>
+                <string name="tab_submit" >Submit
+                </string>
+                <string name="submit_quote_label" >Quote
+                </string>
+                <string name="dislike_button" >Dislike
+                </string>
             </file>
             <file
                 path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/values/dimens.xml"
@@ -8316,9 +8649,39 @@ true
                 </dimen>
             </file>
             <file
+                name="ic_action_good"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-hdpi/ic_action_good.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_previous_item"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-hdpi/ic_action_previous_item.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_next_item"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-hdpi/ic_action_next_item.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_bad"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-hdpi/ic_action_bad.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_good"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-xhdpi/ic_action_good.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_previous_item"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-xhdpi/ic_action_previous_item.png"
+                qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
@@ -8326,9 +8689,257 @@ true
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
+                name="ic_action_next_item"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-xhdpi/ic_action_next_item.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_bad"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-xhdpi/ic_action_bad.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_good"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-mdpi/ic_action_good.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_previous_item"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-mdpi/ic_action_previous_item.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_next_item"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-mdpi/ic_action_next_item.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_bad"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-mdpi/ic_action_bad.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppTheme.EditText"
+                    parent="AppTheme.Component" >
+                    <item name="android:layout_height">
+			wrap_content
+                    </item>
+                    <item name="android:background">
+			@drawable/edittext
+                    </item>
+                    <item name="android:textColor">
+			@color/gray_dark
+                    </item>
+                    <item name="android:gravity">
+			top
+                    </item>
+                    <item name="android:inputType">
+			text
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Rate.Like"
+                    parent="AppTheme.Button.Rate" >
+                    <item name="android:src">
+			@drawable/ic_action_good
+                    </item>
+                    <item name="android:onClick">
+			upVote
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.TextView"
+                    parent="AppTheme.Component" >
+                    <item name="android:layout_height">
+			wrap_content
+                    </item>
+                    <item name="android:textColor">
+			@color/white_f
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Rate.Dislike"
+                    parent="AppTheme.Button.Rate" >
+                    <item name="android:src">
+			@drawable/ic_action_bad
+                    </item>
+                    <item name="android:onClick">
+			downVote
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Layout.QuoteBox"
+                    parent="AppTheme.Layout" >
+                    <item name="android:layout_height">
+			wrap_content
+                    </item>
+                    <item name="android:background">
+			@drawable/quotebox
+                    </item>
+                    <item name="android:layout_margin">
+			6dp
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Navigate"
+                    parent="AppTheme.Button.Solid" >
+                    <item name="android:layout_width">
+			0dp
+                    </item>
+                    <item name="android:layout_weight">
+			1
+                    </item>
+                    <item name="android:layout_height">
+			fill_parent
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Solid"
+                    parent="AppTheme.Button" >
+                    <item name="android:layout_height">
+			wrap_content
+                    </item>
+                    <item name="android:layout_margin">
+			0dp
+                    </item>
+                    <item name="android:background">
+			@drawable/buttonsolid
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Navigate.Right"
+                    parent="AppTheme.Button.Navigate" >
+                    <item name="android:src">
+			@drawable/ic_action_next_item
+                    </item>
+                    <item name="android:onClick">
+			nextQuote
+                    </item>
+                </style>
+
+                <style name="AppTheme.Layout" >
+                    <item name="android:background">
+			@drawable/layout
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Navigate.Left"
+                    parent="AppTheme.Button.Navigate" >
+                    <item name="android:src">
+			@drawable/ic_action_previous_item
+                    </item>
+                    <item name="android:onClick">
+			previousQuote
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="Theme.AppCompat.Light.DarkActionBar" >
+                    <item name="android:actionBarStyle">
+			@style/AppTheme.ActionBar
+                    </item>
+                </style>
+
+                <style name="AppTheme.Component" >
+                    <item name="android:textSize">
+			20sp
+                    </item>
+                    <item name="android:layout_width">
+			fill_parent
+                    </item>
+                    <item name="android:layout_margin">
+			6dp
+                    </item>
+                    <item name="android:textColor">
+			@color/white_f
+                    </item>
+                    <item name="android:padding">
+			4dp
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.ActionBar"
+                    parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse" >
+                    <item name="android:displayOptions">
+			showTitle
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.EditText.Solid"
+                    parent="AppTheme.EditText" >
+                    <item name="android:layout_margin">
+			0dp
+                    </item>
+                    <item name="android:background">
+			@drawable/edittextsolid
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button"
+                    parent="AppTheme.Component" >
+                    <item name="android:layout_height">
+			wrap_content
+                    </item>
+                    <item name="android:background">
+			@drawable/button
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.Button.Rate"
+                    parent="AppTheme.Button" >
+                    <item name="android:layout_width">
+			wrap_content
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.TextView.Quote"
+                    parent="AppTheme.TextView" >
+                    <item name="android:layout_width">
+			0dp
+                    </item>
+                    <item name="android:layout_weight">
+			1
+                    </item>
+                    <item name="android:textColor">
+			@color/pink
+                    </item>
+                    <item name="android:textSize">
+			18sp
+                    </item>
+                </style>
+            </file>
+            <file
+                name="ic_action_good"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-xxhdpi/ic_action_good.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_previous_item"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-xxhdpi/ic_action_previous_item.png"
+                qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
@@ -8336,20 +8947,15 @@ true
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
-                name="fragment_browse"
-                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/layout/fragment_browse.xml"
-                qualifiers=""
-                type="layout" />
+                name="ic_action_next_item"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-xxhdpi/ic_action_next_item.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
             <file
-                name="activity_browse"
-                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/layout/activity_browse.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="browse"
-                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/menu/browse.xml"
-                qualifiers=""
-                type="menu" />
+                name="ic_action_bad"
+                path="/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/drawable-xxhdpi/ic_action_bad.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
         </source>
         <source path="/home/xeno/AndroidStudioProjects/Blairbash/dev/build/res/rs/debug" />
         <source path="/home/xeno/AndroidStudioProjects/Blairbash/dev/build/res/generated/debug" />

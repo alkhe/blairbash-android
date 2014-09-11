@@ -1,20 +1,15 @@
-<!-- From: file:/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="io.systemic.blairbash.dev">
+<!-- From: file:/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="1.5.1" package="io.systemic.blairbash.dev">
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="19"/>
 
 	<uses-permission android:name="android.permission.INTERNET"/>
 
     <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
-        <activity android:label="@string/app_name" android:name="io.systemic.blairbash.dev.BrowseActivity">
+        <activity android:configChanges="orientation|keyboardHidden|screenSize" android:label="@string/app_name" android:name="io.systemic.blairbash.dev.MainActivity" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <!--<activity
-            android:name="io.systemic.blairbash.dev.BrowseActivity"
-            android:label="@string/title_activity_browse" >
-        </activity>-->
     </application>
 
 </manifest>

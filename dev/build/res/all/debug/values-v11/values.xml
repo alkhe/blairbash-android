@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/home/xeno/AndroidStudioProjects/Blairbash/dev/src/main/res/values-v11/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">			@style/AppTheme.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:displayOptions">			showTitle</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="AppTheme.Component">
+        <item name="android:layout_height">			wrap_content</item>
+        <item name="android:background">			@drawable/button</item>
+    </style>
+
+    <style name="AppTheme.Button.Navigate" parent="AppTheme.Button.Solid">
+        <item name="android:layout_width">			0dp</item>
+        <item name="android:layout_weight">			1</item>
+        <item name="android:layout_height">			fill_parent</item>
+    </style>
+
+    <style name="AppTheme.Button.Navigate.Left" parent="AppTheme.Button.Navigate">
+        <item name="android:src">			@drawable/ic_action_previous_item</item>
+        <item name="android:onClick">			previousQuote</item>
+    </style>
+
+    <style name="AppTheme.Button.Navigate.Right" parent="AppTheme.Button.Navigate">
+        <item name="android:src">			@drawable/ic_action_next_item</item>
+        <item name="android:onClick">			nextQuote</item>
+    </style>
+
+    <style name="AppTheme.Button.Rate" parent="AppTheme.Button">
+        <item name="android:layout_width">			wrap_content</item>
+    </style>
+
+    <style name="AppTheme.Button.Rate.Dislike" parent="AppTheme.Button.Rate">
+        <item name="android:src">			@drawable/ic_action_bad</item>
+        <item name="android:onClick">			downVote</item>
+    </style>
+
+    <style name="AppTheme.Button.Rate.Like" parent="AppTheme.Button.Rate">
+        <item name="android:src">			@drawable/ic_action_good</item>
+        <item name="android:onClick">			upVote</item>
+    </style>
+
+    <style name="AppTheme.Button.Solid" parent="AppTheme.Button">
+        <item name="android:layout_height">			wrap_content</item>
+        <item name="android:layout_margin">			0dp</item>
+        <item name="android:background">			@drawable/buttonsolid</item>
+    </style>
+
+    <style name="AppTheme.Component">
+        <item name="android:textSize">			20sp</item>
+        <item name="android:layout_width">			fill_parent</item>
+        <item name="android:layout_margin">			6dp</item>
+        <item name="android:textColor">			@color/white_f</item>
+        <item name="android:padding">			4dp</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="AppTheme.Component">
+        <item name="android:layout_height">			wrap_content</item>
+        <item name="android:background">			@drawable/edittext</item>
+        <item name="android:textColor">			@color/gray_dark</item>
+        <item name="android:gravity">			top</item>
+        <item name="android:inputType">			text</item>
+    </style>
+
+    <style name="AppTheme.EditText.Solid" parent="AppTheme.EditText">
+        <item name="android:layout_margin">			0dp</item>
+        <item name="android:background">			@drawable/edittextsolid</item>
+    </style>
+
+    <style name="AppTheme.Layout">
+        <item name="android:background">			@drawable/layout</item>
+    </style>
+
+    <style name="AppTheme.Layout.QuoteBox" parent="AppTheme.Layout">
+        <item name="android:layout_height">			wrap_content</item>
+        <item name="android:background">			@drawable/quotebox</item>
+        <item name="android:layout_margin">			6dp</item>
+    </style>
+
+    <style name="AppTheme.TextView" parent="AppTheme.Component">
+        <item name="android:layout_height">			wrap_content</item>
+        <item name="android:textColor">			@color/white_f</item>
+    </style>
+
+    <style name="AppTheme.TextView.Quote" parent="AppTheme.TextView">
+        <item name="android:layout_width">			0dp</item>
+        <item name="android:layout_weight">			1</item>
+        <item name="android:textColor">			@color/pink</item>
+        <item name="android:textSize">			18sp</item>
+    </style>
     <!-- From: file:/home/xeno/AndroidStudioProjects/Blairbash/dev/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-v11/values.xml -->
     <eat-comment />
 
