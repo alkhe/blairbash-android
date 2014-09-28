@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="gray_medium">#808080</color>
+	<color name="gray_dark">#404040</color>
+
+	<color name="white">#ffffff</color>
+	<color name="white_f">#f0ffffff</color>
+	<color name="white_e">#e0ffffff</color>
+	<color name="white_d">#d0ffffff</color>
+	<color name="white_c">#c0ffffff</color>
+	<color name="white_b">#b0ffffff</color>
+	<color name="white_a">#a0ffffff</color>
+	<color name="white_9">#90ffffff</color>
+	<color name="white_8">#80ffffff</color>
+	<color name="white_7">#70ffffff</color>
+	<color name="white_6">#60ffffff</color>
+	<color name="white_5">#50ffffff</color>
+	<color name="white_4">#40ffffff</color>
+	<color name="white_3">#30ffffff</color>
+	<color name="white_2">#20ffffff</color>
+	<color name="white_1">#10ffffff</color>
+
+	<color name="blairbash">#ff5b49</color>
+	<color name="blairbash_medium">#df3b29</color>
+	<color name="blairbash_dark">#bf1b09</color>
+
+	<color name="mellow">#d0b080</color>
+	<color name="mellow_medium">#b09060</color>
+	<color name="mellow_dark">#907040</color>
+
+	<color name="pink">#ffa0a0</color>
+	<color name="pink_medium">#ff8080</color>
+
+</resources>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			xmlns:tools="http://schemas.android.com/tools"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			style="@style/AppTheme.Layout"
+			tools:context="io.systemic.blairbash.dev.BrowseFragment">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			style="@style/AppTheme.Layout">
+
+			<TextView
+				android:id="@+id/submit_quote_label"
+				android:text="@string/submit_quote_label"
+				android:layout_alignParentTop="true"
+				style="@style/AppTheme.TextView" />
+
+			<EditText
+				android:id="@+id/submit_quote"
+				android:inputType="textMultiLine"
+				android:minLines="8"
+				android:layout_below="@+id/submit_quote_label"
+				style="@style/AppTheme.EditText" />
+
+			<TextView
+				android:id="@+id/submit_notes_label"
+				android:text="@string/submit_notes_label"
+				android:layout_below="@+id/submit_quote"
+				style="@style/AppTheme.TextView" />
+
+			<EditText
+				android:id="@+id/submit_notes"
+				android:layout_below="@+id/submit_notes_label"
+				style="@style/AppTheme.EditText" />
+
+			<TextView
+				android:id="@+id/submit_tags_label"
+				android:text="@string/submit_tags_label"
+				android:layout_below="@+id/submit_notes"
+				style="@style/AppTheme.TextView" />
+
+			<EditText
+				android:id="@+id/submit_tags"
+				android:layout_below="@+id/submit_tags_label"
+				style="@style/AppTheme.EditText" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+
+	<Button
+		android:layout_width="fill_parent"
+		android:text="@string/submit_button"
+		android:onClick="submitQuote"
+		style="@style/AppTheme.Button.Solid" />
+
+</LinearLayout>
